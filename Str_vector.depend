@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1553931544 source:z:\c++\str_vector\main.cpp
+	"funkcijos.h"
+
+1553931185 z:\c++\str_vector\struktura.h
+	<iostream>
+	<vector>
+
+1553931544 z:\c++\str_vector\funkcijos.h
+
