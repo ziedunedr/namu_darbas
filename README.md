@@ -1,13 +1,8 @@
 # namu_darbas
 ---
 
-## 1 versija
+## 2 versija
 
-1. dddfd
-2. ghh
-3. uyt
-
-```c
-int main () {
-cout<<"sveiki!!!";
-}
+1. Duomenys nuskaitomi is failo
+2. Sulygiuotas duomenu isvedimas
+3. Surusiuoti pagal vardus (abeceles tvarka)
