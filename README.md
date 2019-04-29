@@ -1,8 +1,8 @@
 # namu_darbas
 ---
 
-## 2 versija
+## 3 versija
 
-1. Duomenys nuskaitomi is failo
-2. Sulygiuotas duomenu isvedimas
-3. Surusiuoti pagal vardus (abeceles tvarka)
+1. h failas egzistuoja nuo 0.1 versijos
+2. Sruktūros egzistuoja nuo 0.1 versijos 
+3. Pridetas isimciu valdymas
