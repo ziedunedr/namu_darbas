@@ -127,6 +127,6 @@ void readFromFile()
 		printData(lentele);
 	}
 
-	else cout << "Unable to open file";
+	else cout << "Failas nerastas.";
 }
 
