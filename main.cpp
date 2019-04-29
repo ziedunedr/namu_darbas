@@ -15,6 +15,6 @@ int main()
 	{
 		meniu();
 	}
-    
+	cout << endl << "Sistema baige darba" << endl;
     return 0;
 }
