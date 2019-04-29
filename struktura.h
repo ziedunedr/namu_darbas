@@ -41,19 +41,45 @@ void ir::pild(){
 			paz.push_back(itemp);
 		}
 	}
-	else
+	else if (autoGnr == 'N' || autoGnr == 'n')
 	{
 		cout << "Egzaminas: "; /////V.0.1 nuskaitom egzamina
 		cin >> egz;
+		try {
+			if (cin.fail()) {
+				throw "error";
+			}
+		}
+		catch (char* error) { /////V.0.3 Blogai ivesta vartotojo duomenys, baigiam programos darba
+			cout << error << endl;
+			return;
+		}
 		paz.clear();
 		do {
 			cout << "ND: ";
 			cin >> itemp;
-			if (itemp > 0 && itemp <= 10)
-				pazArray[index] = itemp; /////V.0.1 pazymiu saugojimas i array
-			index++;
-			paz.push_back(itemp);
+			try {
+				if (cin.fail()) {
+					throw "error";
+				}
+				else
+				{
+					if (itemp > 0 && itemp <= 10)
+						pazArray[index] = itemp; /////V.0.1 pazymiu saugojimas i array
+					index++;
+					paz.push_back(itemp);
+				}
+			}
+			catch (char* error) { /////V.0.3 Blogai ivesta vartotojo duomenys, baigiam programos darba
+				cout << error << endl;
+				return;
+			}
+
 		} while (itemp != 0);
+	}
+	else /////V.0.3 Blogai ivesta vartotojo duomenys
+	{
+		return;
 	}
 	
     vid=0;
