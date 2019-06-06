@@ -101,12 +101,10 @@
   <ItemGroup>
     <ClCompile Include="funcijos.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="v04.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="funkcijos.h" />
     <ClInclude Include="struktura.h" />
-    <ClInclude Include="v04.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
